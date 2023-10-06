@@ -2,7 +2,8 @@
 By: Eng. Hamed Abbas Abd El Halim - Mechatronics Engineer.
 mail: hamed.abbas9922@gmail.com
 
-
+This code is used to manipulate the robotic arm in inverse kinematics
+the user writes the position below then run the arduino code.
 */
 
 #include <Servo.h>
