@@ -1,0 +1,4 @@
+Components:
+- Arduino UNO
+- 3X Servo motors Mg995
+- Jumper wires (male-male , male-female)
