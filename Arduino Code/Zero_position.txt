@@ -2,7 +2,8 @@
 By: Eng. Hamed Abbas Abd El Halim - Mechatronics Engineer.
 mail: hamed.abbas9922@gmail.com
 
-
+This code is used for getting servo motors int the zero position
+You have to adjust the robotic arm body into the zero position as in the model diagram in "Robotics Equation" section
 */
 
 #include <Servo.h>
