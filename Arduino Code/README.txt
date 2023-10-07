@@ -10,16 +10,14 @@
 /**
  * mail: hamed.abbas9922@gmail.com
  *
- * This is application project mainly on Robotics inverse kinematics.
- * 3R (3 revolute joints): Base, Shoulder and Elbow. you can add end effector if you want, i did not use end effector gripper.
- * inverse kinematics approach: How to make the end effector reach specific position?
- * Using end effector position to get joint angles required to reach this position
- *
- * make sure to operate the servo motors as described in the datasheet, 
- * here i am using 3 Mg995 servo motors whch operate with in 4.8v - 7.2volts and require about 1amp/each motor
- * for servo motor powering, you can use one of these:
- * 1) Two 18650 li batteries in series(2*3.7=7.4v) entering to a buck converter circuit (MUST, not to damage servo motors)
- * 2) Your PC USB cable (not recommended if you load on servo motors)
+ * There is two arduino code files to control the robotic arm:
+ * 1. Zero Position: used to bring servo angles into zero position.
+ * zero position MUST be defind first - as modelled in robotics kinematics equations - to reach the correct angles
+ * to set servo motors to zero position, follow these steps:
+ * - Base servo motor: Adjust the motor blade so that the arm points to x-direction of the origin coordinates of the model (Robotics equation folder - 1.jpg)
+ * - Shoulder servo motor: Adjust the motor blade so that the first link is parallel to the x-direction
+ * - Elbow servo motor: Adjust the motor blade so that the first link is parallel to the second link
  * 
- * Microcontroller: Arduino Uno
+ * 2.Inverse Kinematics
+ * in this arduino code file, you can enter the position x, y and z and run the code to reach the end effector target position
  **/
