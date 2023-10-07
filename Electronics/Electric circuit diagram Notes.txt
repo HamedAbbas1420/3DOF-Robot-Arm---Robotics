@@ -1,4 +1,13 @@
-Components:
-- Arduino UNO
-- 3X Servo motors Mg995
-- Jumper wires (male-male , male-female)
+/**
+ * Electronics notes:`
+ * make sure to operate the servo motors as described in the datasheet, 
+ * here i am using 3 Mg995 servo motors which operate within 4.8v - 7.2volts and require about 1amp/each motor
+ * for servo motor powering, you can use one of these:
+ * 1) Two 18650 li batteries in series(2*3.7=7.4v) entering to a buck converter circuit (MUST, not to damage servo motors)
+ * 2) Your PC USB cable (not recommended if you load on servo motors)
+ * 
+ * Components:
+ * Arduino UNO
+ * 3X Servo motors Mg995
+ * Jumper wires (male-male , male-female)3
+ */
