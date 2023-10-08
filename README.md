@@ -17,4 +17,6 @@
  * Using end effector position to get joint angles required to reach this position
  *
  * Notes can be found in its related folder
+ * you can watch the video of testing the robot on my LinkedIn:
+ * https://www.linkedin.com/posts/hamed-abbas-a741ba176_application-project-on-inverse-kinematics-activity-7116162960833622016-uVFj?utm_source=share&utm_medium=member_desktop
  **/
